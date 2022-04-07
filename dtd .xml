@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PRODUCT
+[
+<!ELEMENT PRODUCT (PRODUCTname,price,material,shopaddress,contact)>
+<!ELEMENT PRODUCTname (#PCDATA)>
+<!ELEMENT price (perkg, pergram)>
+<!ELEMENT perkg (#PCDATA)>
+<!ELEMENT pergram (#PCDATA)>
+<!ELEMENT material (#PCDATA)>
+<!ELEMENT shopaddress (Village,AREA,shopNUMBER)>
+<!ELEMENT Village (#PCDATA)>
+<!ELEMENT AREA (#PCDATA)>
+<!ELEMENT shopNUMBER (#PCDATA)>
+<!ELEMENT contact (Email,Facebook,number)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Facebook (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+]>
+
+
+<PRODUCT>
+    <PRODUCTname> D0ND0N Mosii ke Ladu </PRODUCTname>
+    <price>
+        <perkg>500$</perkg>
+        <pergram>600$</pergram>
+    </price>
+    <material>BASAN</material>
+    <shopaddress>
+        <Village>DHOLAKPUR</Village>
+        <AREA>CHUKI Ka Ghr</AREA>
+        <shopNUMBER>B-32</shopNUMBER>
+    </shopaddress>
+    <contact>
+        <Email>XYZ@gmail.com</Email>
+        <Facebook>XYZ.facebook.com</Facebook>
+        <number>0323213213132</number>
+    </contact>
+</PRODUCT>
